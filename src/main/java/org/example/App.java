@@ -22,6 +22,6 @@ public class App
         Double n3 = Double.parseDouble(str3);
         n2 = n2/100;
         Double n4 = n1*(1+n2*n3);
-        System.out.printf("After %s years at %s, the investment will be worth $%.2f",str3,str2,n4);
+        System.out.printf("After %s years at %s%%, the investment will be worth $%.2f",str3,str2,n4);
     }
 }
